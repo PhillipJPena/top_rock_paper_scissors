@@ -13,8 +13,6 @@ let choices = ["rock", "paper", "scissors"];
 let playerScore = 0;
 let cpuScore = 0;
 
-console.log(results);
-
 function randomNumberBetween(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
@@ -85,6 +83,5 @@ buttons.forEach(btn => {
     let cpuChoice = computerPlay();
     playerChoiceContainer.textContent = `Player Choose: ${playerChoice}`;
     cpuChoiceContainer.textContent = `CPU Choose: ${cpuChoice}`;
-    console.log(playRockPaperScissors(playerChoice, cpuChoice));
   });
 });
