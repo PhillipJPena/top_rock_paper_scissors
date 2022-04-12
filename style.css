@@ -19,6 +19,24 @@ body {
   line-height: 1.5;
 }
 
+.instructions {
+  text-align: center;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 8rem;
+}
+
+.results {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
 button {
   font: inherit;
   font-weight: bold;
@@ -31,4 +49,13 @@ button {
   justify-content: center;
   text-align: center;
   width: 6rem;
+}
+
+.wrapper {
+  display: flex;
+  gap: 4rem;
+}
+
+.scorecard {
+  padding: 1rem;
 }

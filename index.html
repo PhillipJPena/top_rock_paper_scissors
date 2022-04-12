@@ -9,7 +9,21 @@
   </head>
   <body>
     <h1>Rock, Paper, Scissors</h1>
-    <div class="display"></div>
+    <div class="instructions">
+      Choose Rock, Paper or Scissors. The CPU will output a random choice. First
+      to 5 wins.
+    </div>
+    <div class="display">
+      <div class="wrapper">
+        <div id="player-choice">Player Choice:</div>
+        <div id="cpu-choice">Player Choice:</div>
+      </div>
+      <div class="results" id="results"></div>
+    </div>
+    <div class="wrapper">
+      <div class="scorecard" id="player-score">Player Score: 0</div>
+      <div class="scorecard" id="cpu-score">CPU Score: 0</div>
+    </div>
     <div class="btn-group">
       <button class="rock" id="rock">rock</button>
       <button class="paper" id="paper">paper</button>
