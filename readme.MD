@@ -6,8 +6,7 @@ First Javascript project in [the Odin Project](https://www.theodinproject.com/) 
 
 ## Aim
 
-The aim to begin getting comfortable with basic web dev fundamentals.
-####examples:
+Begin getting comfortable with basic web dev fundamentals.
 
 - Using variables and functions in JS
 - Linking HTML,CSS and JS together to output a webpage
