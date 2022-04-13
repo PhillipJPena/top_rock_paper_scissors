@@ -83,5 +83,6 @@ buttons.forEach(btn => {
     let cpuChoice = computerPlay();
     playerChoiceContainer.textContent = `Player Choose: ${playerChoice}`;
     cpuChoiceContainer.textContent = `CPU Choose: ${cpuChoice}`;
+    playRockPaperScissors(playerChoice, cpuChoice);
   });
 });
